@@ -167,7 +167,7 @@ function compareRobots(robot1, robot2, memory1, memory2) {
 function displayResult() {
     result = compareRobots(goalOrientedRobot, optimisedRobot, [], []);
     console.log(result);
-    document.getElementById("robot").innerHTML = ("Goal Oriented Robot: " + result[0] + "  Optimised Robot: " + result[1])
+    document.getElementById("robot").innerHTML = (`Goal Oriented Robot: ${result[0]}  Optimised Robot: ${result[1]}`)
 }
 
 displayResult()
