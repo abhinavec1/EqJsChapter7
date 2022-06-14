@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chapter 7 Solutions</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h3>Comparison of Robots' Performance</h3>
+    <p id="robot"></p>
+    <hr>
+    <h3>Implementing Persistent Group</h3>
+    <p>Initialisation: <br> let a = PGroup.empty.add("a");<br>
+        let ab = a.add("b");<br>
+        let b = ab.delete("a");<br>
+    </p>
+    <p>console.log(b.has("b"));</p>
+    <p id="a1"></p>
+    <p>console.log(a.has("b"));</p>
+    <p id="a2"></p>
+    <p>console.log(b.has("a"));</p>
+    <p id="a3"></p>
+
+    <script src="robot.js"></script>
+    <script src="PGroup.js"></script>
+</body>
+
+</html>
